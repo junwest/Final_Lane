@@ -1,0 +1,18 @@
+# 원본 데이터와 영상 제외
+data/
+*.mp4
+*.mov
+
+# 학습된 모델 제외
+model/
+*.pth
+
+# 결과 영상 제외
+outputs/
+
+# 캐시, 임시파일 제외
+__pycache__/
+*.pyc
+
+# Jupyter 체크포인트 제외
+.ipynb_checkpoints/
